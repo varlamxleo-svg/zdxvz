@@ -1,42 +1,878 @@
-body{
-    width: 1200px;
-    margin: auto;
-    text-align: center;
+body {
+height: 7202px;
+}
+
+.first_header {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+position: absolute;
+width: 2560px;
+height: 52px;
+left: 600px;
+top: 40px;
 }
 
 
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 40px;
-    gap: 30px;
+.second_header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 54px;
+
+position: absolute; 
+height: 44px;
+left: 600px;
+top: 122px;
 }
-.ask{
-    background-color: #33836e;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
+
+.menu {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 491px;
+height: 22px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
 }
-.phone-number{
-    font-weight: bold;
-    font-size: 20px;
-    display: black;
+
+.reg {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 185px;
+height: 24px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.button_telegram {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 20px;
+gap: 10px;
+
+width: 144px;
+height: 44px;
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 10px;
+background-color: white;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.button_call {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 20px;
+gap: 10px;
+width: 202px;
+height: 44px;
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 10px;
+background-color: white;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.header_buttons {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+margin: 0 auto;
+width: 361px;
+height: 44px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.button_queston {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 20px;
+gap: 10px;
+color: white;
+width: 192px;
+height: 52px;
+border: none;
+background: #33836E;
+border-radius: 10px;
+flex: none;
+order: 2;
+flex-grow: 0;
+
 }
 
 .search{
-    width: 427px;
-    border: none;
-    font-size: 16px;
-    background-color: #2F2B430A;
-    border-radius: 10px;
-    padding: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 20px;
+gap: 249px;
+width: 427px;
+height: 52px;
+background: rgba(47, 43, 67, 0.04);
+border-radius: 10px;
+border: none;
+flex: none;
+order: 1;
 }
-.contact-info{
-    display: grid;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgba(47, 43, 67, 0.5);
+
+.number_and_info {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+width: 220px;
+height: 51px;
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+.number{
+width: 150px;
+height: 27px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: #140A32;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.number_info {
+width: 220px;
+height: 19px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: rgba(47, 43, 67, 0.5);
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.menu_text {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+margin: 0px;
+color: #140A32;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.mainHotline {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+color: rgb(110, 110, 110);
+
+position: absolute;
+width: 207px;
+height: 22px;
+left: 650px;
+top: 206px;
+}
+
+.hotline {
+    display: flex;
+}
+
+.hotline {
+position: absolute;
+width: 100%;
+height: 104px;
+left: 600px;
+top: 277px;
+
+font-family: 'Open Sans';
+font-style: normal;
+}
+
+.hotlineMainText {
+width: 657px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 52px;
+letter-spacing: -0.03em;
+color: #140A32;
+}
+
+.hotlineSecondText {
+    width: 657px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #140A32;
+}
+
+.hotlineImg {
+position: absolute;
+width: 377px;
+height: 402px;
+left: 813px;
+}
+
+.hotlineQuestion {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+}
+
+.hotlineButton {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 36px 18px;
+gap: 10px;
+width: 253px;
+height: 56px;
+background: #33836E;
+border-radius: 10px;
+color: white;
+border: none;
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 16px;
+}
+
+.hotlineNumber {
+width: 180px;
+height: 33px;
+margin: 0;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #33836E;
+}
+
+.hotlineLine {
+width: 178px;
+height: 0px;
+border: 2px solid #33836E;
+}
+
+.hotlineCall {
+width: 189px;
+height: 16px;
+margin-bottom: 4px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: rgba(47, 43, 67, 0.5);
+}
+
+.hotlineAdvantages {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 30px;
+margin-top: 20px;
+}
+
+.hotlineAdvantagesInfo {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+}
+
+.LegalAssistance {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+position: absolute;
+width: 1140px;
+height: 204px;
+left: 600px;
+top: 724px;
+}
+
+.LegalAssistanceMainText {
+width: 368px;
+height: 44px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+margin-bottom: 0;
+color: #140A32;
+}
+
+.LegalAssistanceSecondText {
+    font-family: 'Open Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+}
+
+.FreeConsultation {
+position: absolute;
+width: 1140px;
+height: 295px;
+left: 600px;
+top: 1008px;
+}
+
+.FreeConsultationTitle {
+    font-family: 'Open Sans';
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;;
+}
+
+.FreeConsultationText {
+    font-family: 'Open Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+}
+
+.ConsultationCards {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 1140px;
+height: 180px;
+left: 600px;
+top: 1165px;
+}
+
+.ConsultationCard {
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 20px;
+
+width: 270px;
+height: 180px;
+margin: 0;
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 20px;
+}
+
+.ConsultationCardImgNumber {
+    margin-top: 5px;
+}
+
+
+.ConsultationCardInfo {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #140A32;
+}
+
+.ConsultationCardNumber {
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: #140A32;
+margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.ConsultationCardService {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #33836E;
+}
+
+.ConsultationCardInfoNumber {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.ConsultationCardServiceNumber {
+   margin-top: 5px;
+   font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #33836E;
+}
+
+.CallPoster {
+    /* Frame 40 */
+
+position: absolute;
+width: 1140px;
+height: 200px;
+left: 600px;
+top: 1383px;
+
+background-color: #33836E;
+border-radius: 20px;
+
+}
+
+.CallPosterWoman {
+position: absolute;
+width: 298px;
+height: 200px;
+left: 36px;
+top: 0px;
+}
+
+.CallPosterInfo {
+position: absolute;
+top: 20px;
+left: 350px;
+color: white;
+border-radius: 20px;
+}
+
+.CallPosterText {
+    font-family: 'Open Sans';
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+}
+
+.CallPosterNumber {
+    font-family: 'Open Sans';
+font-weight: 700;
+font-style: Bold;
+font-size: 42px;
+line-height: 100%;
+letter-spacing: -3%;
+}
+
+.CallPosterLawyers {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 260px;
+height: 107px;
+left: 763px;
+top: 30px;
+}
+
+.CallPosterLawyersText {
+    font-family: 'Open Sans';
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+color: white;
+}
+
+.CallPosterLawyersAvatars {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 260px;
+height: 62px;
+}
+
+.CallPosterLawyersAvatar {
+box-sizing: border-box;
+width: 62px;
+height: 62px;
+border: 2px solid #FFFFFF;
+border-radius: 100px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px -13px;
+}
+
+.Help {
+position: absolute;
+left: 600px;
+top: 1663px;
+}
+
+.HelpTitle {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    letter-spacing: -3%;
+}
+
+.HelpCards {
+display: flex;
+flex-wrap: wrap;
+padding: 0px;
+gap: 20px;
+position: absolute;
+width: 1140px;
+height: 380px;
+top: 74px;
+margin-top: 30px;
+} 
+
+.HelpCard {
+box-sizing: border-box;
+display: flex;
+align-items: center;
+padding: 30px;
+
+width: 560px;
+height: 180px;
+
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 20px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+} 
+
+.HelpText {
+padding: 0px 20px;
+width: 340px;
+height: 120px;
+
+font-family: 'Open Sans';
+line-height: 150%;
+}
+
+.Advantages {
+position: absolute;
+width: 1140px;
+height: 585px;
+left: 600px;
+top: 2197px;
+}
+
+.AdvantagesTitle {
+    font-family: 'Open Sans';
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+}
+
+.AdvantagesText {
+position: absolute;
+width: 560px;
+height: 104px;
+left: 0px;
+top: 93px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+}
+
+.AdvantagesPlus {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 469px;
+height: 70px;
+left: 0px;
+top: 227px
+}
+
+.AdvantagesPlusTitle {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+letter-spacing: -0.03em;
+color: #33836E;
+
+}
+
+.AdvantagesImg {
+position: absolute;
+width: 560px;
+height: 385px;
+left: 580px;
+top: 0px;
+}
+
+.AdvantagesPlusText {
+    font-family: 'Open Sans';
+font-weight: 400;
+font-size: 16px;
+}
+
+.AdvantagesHotlineNumberCard {
+position: absolute;
+width: 1140px;
+height: 200px;
+top: 385px;
+background: #33836E;
+border-radius: 20px;
+}
+
+.AdvantagesHotlineNumber {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 296px;
+height: 100px;
+left: 60px;
+top: 25px;
+}
+
+.AdvantagesHotlineNumberNumber {
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 42px;
+line-height: 100%;
+color: white;
+margin-top: 10px;
+}
+
+.AdvantagesHotlineNumberText {
+font-family: 'Open Sans';
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+color: white;
+}
+
+.AdvantagesHotlineCall {
+    position: absolute;
+    left: 550px;
+    top: 25px;
+}
+
+.AdvantagesHotlineCallText {
+    font-family: 'Open Sans';
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 100%;
+color: white;
+}
+
+.AdvantagesHotlineCallButtons {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+}
+
+.AdvantagesHotlineCallFirstButton {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 7px 16px 8px;
+gap: 3px;
+
+width: 249px;
+height: 56px;
+
+background: #FFFFFF;
+border-radius: 10px;
+border: 0;
+}
+
+.AdvantagesHotlineCallSecondButton {
+box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 36px 18px;
+gap: 10px;
+
+width: 207px;
+height: 56px;
+
+color: white;
+background-color: #33836E;
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+}
+
+.AdvantagesHotlineCallSecondText {
+    font-family: 'Open Sans';
+font-weight: 600;
+font-size: 12px;
+color: rgba(255, 255, 255, 0.5);
+}
+
+.PhoneNumber {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(47, 43, 67, 0.4);
+}
+
+.ButtonNumber {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #140A32;
+padding-top: 5px;
+}
+
+.AdvantagesHotlineHerf {
+        font-family: 'Open Sans';
+font-weight: 600;
+font-size: 12px;
+color: rgba(255, 255, 255, 0.5);
+}
+
+.Specialties {
+    position: absolute;
+    top: 2830px;
+    left: 600px;
+}
+
+
+.SpecialtiesCards {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 20px;
+width: 1140px;
+}
+
+.SpecialtiesCard {
+display: flex;
+flex-direction: column;
+padding: 20px;
+gap: 15px;
+
+width: 518px;
+height: 287px;
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 20px;
+}
+
+.SpecialtiesCardTitle {
+display: flex;
+flex-direction: row;
+padding: 0px;
+}
+
+.SpecialtiesLine {
+width: 167px;
+border: 1px solid #33836E;
+}
+
+.SpecialtiesCardTitleText {
+    font-family: 'Open Sans';
+font-weight: 600;
+font-size: 16px;
+margin-bottom: 2px;
+margin-top: 2px;
+}
+
+.SpecialtiesCardTitleLineText {
+    padding-left: 10px;
+}
+
+.SpecialtiesCardText {
+    font-family: 'Open Sans';
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #2F2B43B2;
 }
